@@ -1,3 +1,21 @@
+## [0.1.32](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/compare/0.1.31...0.1.32) (2025-07-06)
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8.14.3 ([#1065](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/issues/1065)) ([200b50a](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/200b50a6fb7453be9f09e98ca0226f5024e3a508))
+* **deps:** update plugin gitsemver to v5.1.7 ([#1067](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/issues/1067)) ([f124d26](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/f124d26835beff6da913eba834042549777e53b2))
+* **deps:** update plugin kotlin-qa to v0.89.2 ([#1062](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/issues/1062)) ([60dd1a6](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/60dd1a6940bc782d353ad7264b87da467357c9e6))
+* **deps:** update plugin multijvmtesting to v3.5.2 ([#1063](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/issues/1063)) ([09e4984](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/09e4984ffb814113739e06601f9f3e4df864da03))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.27 ([#1064](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/issues/1064)) ([e6127bd](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/e6127bd2746cbad9cf1594c3ca79434972b1a3ac))
+
+### Bug Fixes
+
+* **release:** migrate to Maven Central Portal ([2470145](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/2470145fd7b1d579a80d0f58231f0c441dd3d8d1))
+
+### General maintenance
+
+* ignore node_modules ([c97958c](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/commit/c97958ce1872ae9c17739ecd0ed2755395e98494))
+
 ## [0.1.31](https://github.com/DanySK/Template-for-Kotlin-JVM-Projects/compare/0.1.30...0.1.31) (2025-06-23)
 
 ### Dependency updates
