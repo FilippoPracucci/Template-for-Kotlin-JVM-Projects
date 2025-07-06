@@ -1,5 +1,6 @@
 .gradle/
-build/
 .idea/
+bin/
+build/
+node_modules/
 .vscode
-bin
