@@ -1,3 +1,5 @@
+import org.gradle.api.tasks.testing.logging.TestLogEvent
+
 plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
@@ -33,8 +35,7 @@ tasks.test {
         showCauses = true
         showStackTraces = true
         events(
-            *org.gradle.api.tasks.testing.logging.TestLogEvent
-                .values(),
+            *TestLogEvent.entries.toTypedArray(),
         )
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
     }
