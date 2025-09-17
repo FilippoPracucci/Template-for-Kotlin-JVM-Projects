@@ -10,6 +10,12 @@ plugins {
     alias(libs.plugins.taskTree)
 }
 
+buildscript {
+    configurations.classpath {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
 group = "org.danilopianini"
 
 repositories {
@@ -19,6 +25,10 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     testImplementation(libs.bundles.kotlin.testing)
+}
+
+dependencyLocking {
+    lockAllConfigurations()
 }
 
 kotlin {
