@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.kotlin.stdlib)
+    implementation(kotlin("stdlib"))
     testImplementation(libs.bundles.kotlin.testing)
 }
 
